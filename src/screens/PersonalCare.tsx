@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-class SettingsScreen extends Component {
+class PersonalCare extends Component {
     static navigationOptions = {
-        title: 'Settings'
-    }
+        title: 'Personal Care',
+    };
     render() {
         return (
             <View>
-                <Text>Settings</Text>
+                <Text>PersonalCare</Text>
             </View>
         )
     }
 }
 
-export default SettingsScreen;
+export default PersonalCare;
